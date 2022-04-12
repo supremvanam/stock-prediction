@@ -1,19 +1,19 @@
 # AI Stock Prediction App
 
-> > ## Collaborators
+> ## Collaborators
 >
-> Mengxi Li
-> Nakul Khanna
-> Nasrin Mumtaz
-> Siddarth Sundarajan
+> Mengxi Li  
+> Nakul Khanna  
+> Nasrin Mumtaz  
+> Siddarth Sundarajan  
 > Suprem Vanam
 
 ## Install:
 
-numpy
-pandas
-matplotlib
-pandas_datareader
-keras-models
-streamlit
+numpy  
+pandas  
+matplotlib  
+pandas_datareader  
+keras-models  
+streamlit  
 scikit-learn
