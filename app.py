@@ -1,3 +1,4 @@
+from cProfile import label
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -66,8 +67,8 @@ y_test = y_test*scale_factor
 
 st.subheader('Predictions vs Original')
 fig2 = plt.figure(figsize=(12,6))
-plt.plot(y_test,'b',Label='original price')
-plt.plot(y_predicted,'r',Label='predicted price')
+plt.plot(y_test,'b', label='original price')
+plt.plot(y_predicted,'r', label='predicted price')
 plt.xlabel('Time')
 plt.ylabel('Price')
 plt.legend()
